@@ -2,9 +2,7 @@ body
 {background-color:lightblue;}
   
   .container {
-    margin-right:auto;
-    margin-left:auto;
-    width:50%;
+    align-content:center;
   }
 
 
