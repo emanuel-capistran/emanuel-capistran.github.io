@@ -1,7 +1,8 @@
-body {
-  background-color:lightblue;
-  .container{margin:auto;width:70%;}
-}
+body 
+{background-color:lightblue;}
+  
+  .container {margin:auto;width:70%;}
+
 
 
 
