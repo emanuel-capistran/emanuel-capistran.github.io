@@ -5,8 +5,10 @@ body
   
   .container {
    text-align:center;
-
- 
+     }
+  .cat {
+    width:500px;
+    height:500px;
   }
 
 
