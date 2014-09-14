@@ -5,6 +5,8 @@ body
   
   .container {
    text-align:center;
+   width:510px;
+   height:510px;
      }
   .cat {
     width:500px;
