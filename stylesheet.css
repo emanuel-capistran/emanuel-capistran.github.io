@@ -20,12 +20,12 @@ body
     font-weight:bold;
     letter-spacing:10px;
   }
-{
-  a:link  {color:white; background-color:transparent}
+
+  a a:link  {color:white; background-color:transparent}
   a:visited {color:white; background-color:transparent}
   a:hover   {color:purple; background-color:transparent}
   a:active  {color:purple; background-color:transparent}   
-}
+
 
 
 
