@@ -22,9 +22,9 @@ body
   }
 {
   a a:link  {color:white; background-color:transparent}
-  a:visited {color:#000000; background-color:transparent}
-  a:hover   {color:#ff0000; background-color:transparent}
-  a:active  {color:#ff0000; background-color:transparent}   
+  a:visited {color:white; background-color:transparent}
+  a:hover   {color:purple; background-color:transparent}
+  a:active  {color:purple; background-color:transparent}   
 }
 
 
