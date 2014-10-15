@@ -1,0 +1,51 @@
+body {
+	background-color:grey;
+	font-family:"Century Gothic Bold", Calibri, Sans-Serif;
+}
+.container {
+	width:720px;
+	height:600px;
+	background-color:black;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+.footer {
+	width:720px;
+	height:40px;
+	background-color:black;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:5px;
+	color:white;
+	text-align:center;
+	padding-top:10px;
+	
+}
+#gif {
+	text-align:center;
+	
+}
+#header {
+	color:white;
+	margin-bottom:135px;
+	text-align:center;
+	font-size:62px;
+}
+#car {
+	position:absolute;
+	left:340px;
+	top:140px;
+	animation:move infinite 10s;
+}
+@keyframes move {
+	0% {left:340px;top:140px;transform:roatate(360deg)}
+	
+	25% {left:930px;top:140px;transform:rotate(90deg)}
+	
+	50% {left:930px;top:520px;transform:rotate(180deg)}
+	
+	75% {left:340px;top:520px;transform:rotate(270deg)}
+	
+	100% {left:340px;top:140px;transform:rotate(360deg)}
+}	
