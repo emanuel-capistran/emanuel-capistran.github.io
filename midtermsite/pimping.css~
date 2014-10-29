@@ -1,0 +1,180 @@
+body {
+	background-color:#404040;
+}
+
+#banner {
+	width:720px;
+	height:180px;
+	background-color:brown;
+	margin-bottom:5px;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:5px;
+}
+
+.container {
+	width:720px;
+	height:400px;
+	margin-left:auto;
+	margin-right:auto;
+	background-image:url('images/landscape1.jpg');
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+}
+.gallery_container {
+	width:720px;
+	height:600px;
+	margin-left:auto;
+	margin-right:auto;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+}
+
+#navbar {
+	width:720px;
+	height:60px;
+	background-color: rgba(200, 100, 25, 0.4);
+	position:absolute;
+	
+	
+	
+	
+}
+a:link {
+    text-decoration: none;
+    color:white;
+}
+
+a:visited {
+    text-decoration: none;
+    color:white;
+}
+#button1 {
+	width:120px;
+	height:50px;
+	background-color:grey;
+	margin:5px;
+	float:left;
+	text-align:center;
+	color:white;
+	background: #65a9d7;
+	background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+	background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+	background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+	background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+	background: -o-linear-gradient(top, #3e779d, #65a9d7);
+	border-radius:4px;
+}
+#button1:hover {
+   border-top-color: #28597a;
+   background: #28597a;
+   }
+#button1:active {
+   border-top-color: #1b435e;
+   background: #1b435e;
+   }
+#button2 {
+	width:120px;
+	height:50px;
+	background-color:grey;
+	margin:5px;
+	float:left;
+	text-align:center;
+	color:white;
+	background: #65a9d7;
+	background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+	background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+	background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+	background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+	background: -o-linear-gradient(top, #3e779d, #65a9d7);
+	border-radius:4px;
+}
+#button3 {
+	width:120px;
+	height:50px;
+	background-color:grey;
+	margin:5px;
+	float:left;
+	text-align:center;
+	color:white;
+	background: #65a9d7;
+	background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+	background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+	background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+	background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+	background: -o-linear-gradient(top, #3e779d, #65a9d7);
+	border-radius:4px;
+}
+
+ul.gallery{
+  list-style: none;
+  margin-top:80px;
+  padding: 0;
+  position:absolute;
+}
+
+ul.gallery li{
+  display: block;
+  width: 300px; /* width of gallery */
+  height: 120px; /* portion of each gallery image that's shown initially */
+  position: relative;
+  -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+ul.gallery li img{
+  position: absolute;
+  width: 100%;
+  border: 5px solid #D8D2A2;
+	-webkit-transition: all .5s ease-in-out; /* CSS3 transition setting */
+	-moz-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+
+ul.gallery li:focus{ /* when a LI receives focus (clicked on) */
+  z-index: 100;
+	outline: none;
+	-webkit-transform: rotate(3deg); /* rotate enlarged LI by 3 degrees */
+	-moz-transform: rotate(3deg);
+	transform: rotate(3deg); 
+	pointer-events: none; /* disable pointer events on enlarged LI so thumbnail(s) beneath it can receive those events */
+}
+
+ul.gallery li:nth-of-type(even):focus{ /* even LIs that received focus */
+	-webkit-transform: rotate(-1deg); /* rotate enlarged LI by -1 degrees instead */
+	-moz-transform: rotate(-1deg);
+	transform: rotate(-1deg);
+}
+
+ul.gallery li:focus img{
+  -webkit-transform: scale(1.5) translateX(80%); /* enlarge focused image and move horizontally */
+  -moz-transform: scale(1.5) translateX(80%);
+  transform: scale(1.5) translateX(80%);
+  top: 10px; /* shift enlarged image downwards by 10px */
+	outline: none;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4); 
+  -webkit-filter: grayscale(0); /* nullify grayscale effect */
+  filter: none;
+}
+
+ul.gallery li:first-of-type:focus img{ /* first image within list of thumbnails that receives focus */
+  top: 80px; /* move image down by 80px so it's not obscured by top of window edge */
+}
+
+svg{
+	position: absolute;
+	visibility: hidden;
+}
+
+#footer {
+	width:720px;
+	height:50px;
+	background-color:brown;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:5px;
+	border-radius:5px;
+}
