@@ -9,7 +9,7 @@
 		<title> Emanuel Capistran </title>
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="pimping.css">
-
+		
 	</head>
 
 
@@ -17,11 +17,11 @@
 
 	<body>
 	<div id="banner">
-	Here will go an awsome matte painting or illustration
+	gallery
 	</div>
 	
 	
-	<div class="contactcontainer">
+	<div class="gallery_container">
 	<div id="navbar">
 		<div id="button1">
 		<p><a href="index.html">Home</a></p>
@@ -32,21 +32,16 @@
 		<div id="button3">
 		<p><a href="contact.html">Contact Info</a></p>
 		</div>
-		
-	
 	
 	</div>
 	
-	<div class="myinfo">
-		Here will be my contact information. Maybe I will write something here
-		about me, it depends. 
-	</div>
 	
-	
-	
-	
-	
-	
+<ul class="gallery" title="Tab after clicking on a thumbnail to cycle though thumbnails">
+<li tabindex="1"><img src="images/niceday.jpg" /></li>
+<li tabindex="2"><img src="images/coldday.jpg" /></li>
+<li tabindex="3"><img src="images/uglyday.jpg" /></li>
+
+</ul>
 	
 	
 	</div>
