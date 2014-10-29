@@ -89,6 +89,14 @@ a:visited {
 	background: -o-linear-gradient(top, #3e779d, #65a9d7);
 	border-radius:4px;
 }
+#button2:hover {
+   border-top-color: #28597a;
+   background: #28597a;
+   }
+#button2:active {
+   border-top-color: #1b435e;
+   background: #1b435e;
+   }
 #button3 {
 	width:120px;
 	height:50px;
@@ -105,6 +113,14 @@ a:visited {
 	background: -o-linear-gradient(top, #3e779d, #65a9d7);
 	border-radius:4px;
 }
+#button3:hover {
+   border-top-color: #28597a;
+   background: #28597a;
+   }
+#button3:active {
+   border-top-color: #1b435e;
+   background: #1b435e;
+   }
 
 ul.gallery{
   list-style: none;
