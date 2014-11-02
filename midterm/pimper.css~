@@ -1,0 +1,30 @@
+body {
+	background-color:grey;
+}
+
+#indexbanner {
+	width:1000px;
+	height:200px;
+	background-color:red;
+}
+#navbar {
+	width:1000px;
+	height:50px;
+	background-color:black;
+}
+#pages {
+	width:1000px;
+	background-color:orange;
+}
+#maincontainer {
+	width:1000px;
+	background-color:white;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+#artcontainer {
+	width:1000px;
+	margin-top:20px;
+}
+
