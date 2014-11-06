@@ -1,0 +1,55 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="awsome.css">
+</head>
+
+<body>
+<div id="maincontainer">
+	<div id="banner">
+	<div id="text">
+	<h1>Larry Clark</h1>
+	<p>
+		Larry Clark focused his photography career taking photos of teenagers doing
+		drugs.
+	</p>
+	</div>
+	</div>
+	<div id="photos">
+		<img src="images/clark1.jpg">
+		<img src="images/clark2.jpg">
+		<img src="images/clark3.jpg">
+		<img src="images/clark4.jpg">
+		<img src="images/clark5.jpg">
+		<img src="images/clark6.jpg">
+		<img src="images/clark7.jpg">
+		<img src="images/clark8.jpg">
+		<img src="images/clark9.jpg">
+		<img src="images/clark10.jpg">
+		<img src="images/clark11.jpg">
+		<img src="images/clark12.jpg">
+		<img src="images/clark13.jpg">
+		<img src="images/clark14.jpg">
+		<img src="images/clark15.jpg">
+		<img src="images/clark16.jpg">
+		<img src="images/clark17.jpg">
+		<img src="images/clark18.jpg">
+		<img src="images/clark19.jpg">
+		<img src="images/clark20.jpg">
+		<img src="images/clark21.jpg">
+	</div>
+	<div id="footer">
+		<div>
+		<a href="index.html">Back Top</a>
+		<a href="response.html">My Response to Clark</a>
+		</div>
+		
+		
+	</div>
+	
+
+</div>
+
+
+</body>
+</html>

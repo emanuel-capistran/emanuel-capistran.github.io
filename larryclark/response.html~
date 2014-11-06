@@ -1,0 +1,33 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="awsome.css">
+</head>
+
+<body>
+<div id="maincontainer">
+	<div id="banner">
+	<div id="text">
+	<h1>Emanuel Capistran</h1>
+	<p>
+		Here is my response to Larry Clark's photography.
+	</p>
+	</div>
+	</div>
+	<div><a href="index.html">Home</a></div>
+	<div id="photos">
+		<img src="images/clark1.jpg">
+		<img src="images/clark2.jpg">
+		<img src="images/clark3.jpg">
+		<img src="images/clark4.jpg">
+		<img src="images/clark5.jpg">
+		
+	</div>
+	
+	
+
+</div>
+
+
+</body>
+</html>
