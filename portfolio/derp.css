@@ -1,0 +1,92 @@
+body {
+	font-family:"century gothic", Arial,sans-serif;
+	
+}
+a:link {
+    color:white;
+    background-color:transparent;
+    text-decoration:none;
+}
+a:visited {
+    color:white;
+    background-color:transparent;
+    text-decoration:none;
+}
+a:hover {
+    Color:yellow;
+    background-color:transparent;
+    text-decoration:none;
+    font-size:1.1em;
+}
+a:active {
+    
+    background-color:transparent;
+    text-decoration:none;
+}
+.container {
+	width:1000px;
+	background-color:black;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+#indexbanner {
+	width:1000px;
+	height:220px;
+	background-color:black;
+	background-image:url("images/banner.jpg");
+	
+}
+#navbar {
+	width:1000px;
+	height:30px;
+	background-color:black;
+	text-align:center;
+	font-family:"century gothic", Arial,sans-serif;
+	
+	
+}
+#links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    width:600px;
+    margin:0 auto;
+}
+li {
+	float:left;
+   	
+}
+.tab {
+    display: block;
+    width: 200px;
+    color:white;
+}
+#content {
+	width:1000px;
+	background-color:black;
+	text-align:center;
+	margin-top:40px;
+	
+	color:white;
+}
+#return {
+	padding-bottom:20px;
+	text-align:center;
+}
+#tutorials {
+	font-size:100px;
+	color:white;
+	text-align:center;
+	padding-top:50px;
+	height:240px;
+	width:1000px
+}
+#aboutme {
+	height:300px;
+	width:1000px;
+	color:white;
+	padding:40px;
+
+}

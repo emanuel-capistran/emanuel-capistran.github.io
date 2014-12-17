@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+
+
+
+	<head>
+<link rel="stylesheet" type="text/css" href="derp.css">
+		<title>Emanuel Capistran</title>
+<meta name="viewport" content="width=device-width">
+
+	</head>
+	<body>
+	<div class="container">
+		<div id="indexbanner">
+		
+		</div>
+		<div id="navbar">
+			<ul id="links">
+				<li class="tab"><a href="index.html">Home</a></li>
+				<li class="tab"><a href="about.html">About</a></li>
+				<li class="tab"><a href="tutorials.html">Tutorials</a></li>
+				</ul>
+		</div>
+		<div id="aboutme">
+			<div>
+			<h3><span style="color:yellow">About Me</span></h3>
+			<p>
+			I am a young graphic designer with a passion for art. Since I was young, drawing</br>
+			was something that I enjoyed. I wanted to be able to draw the worlds from my imagination.</br>
+			It was until I finished High School that I decided to take art as my career. My inspiration</br>
+			has always been the epic universes found in video games and in trading card games. When I</br>
+			started college, my knowledge of typography was poor. After taking a couple of courses in</br>
+			typography it lead me into a world that I had no idea it existed. I enjoy combining both</br>
+			digital art with typography.
+			</br>
+			</br>
+			</br>
+			<span style="color:yellow"><em>Contact Information
+			</br>
+			Telephone#: (914)380-9901
+			</br>
+			E-mail: mannyzleet@aol.com</em></span>
+			</p>
+			
+			
+			</div>
+		
+		
+		</div>
+	
+	
+	
+	</div>
+	
+	</body>
+
+
+
+
+
+
+</html>

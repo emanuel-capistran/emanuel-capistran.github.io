@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html>
+
+
+
+	<head>
+<link rel="stylesheet" type="text/css" href="derp.css">
+		<title>Emanuel Capistran</title>
+<meta name="viewport" content="width=device-width">
+
+	</head>
+	<body>
+	<div class="container">
+		<div id="indexbanner">
+		
+		</div>
+		<div id="navbar">
+				<ul id="links">
+				<li class="tab"><a href="index.html">Home</a></li>
+				<li class="tab"><a href="about.html">About</a></li>
+				<li class="tab"><a href="tutorials.html">Tutorials</a></li>
+				</ul>
+		</div>
+		<div id="content">
+			<div>
+			<h3>Mash-ups</h3>
+			<p>The following illustrations are mash-ups that reflect the meaning or a feeling
+			of each phrase.</p>
+			</div>
+			<img src="images/robot.jpg">
+			<img src="images/homemeans.jpg">
+			<img src="images/across.jpg">
+			<div>
+			<h3>Music Tour</h3>
+			<p>In this project I was told to create a performer or band. Then create a tour</br>
+			with all the key items that a tour would need.</p>
+			</div>
+			<img src="images/tour.jpg">
+			<div>
+			<h3>Playing Cards</h3>
+			<p>This playing cards have a murlock theme. Murlocks are a type of create from the
+			warcraft universe.</p>
+			</div>
+			<img src="images/deck.jpg">
+			<div>
+			<h3>Posters</h3>
+			<p>One of my favorite artists is Josip Kelava. I decided to make a homage</br>
+			to him by making a poster mimicking his art style.</p>
+			<img src="images/kelava.jpg">
+			<p></br></br>For this poster I was told to create a poster about an event. I decided to</br>
+			do the Falklands War. The entire poster is composed only of letters.</p>
+			<img src="images/falklands.jpg">
+			</div>
+			<div>
+			<h3>Timeline</h3>
+			</div>
+			<img src="images/timeline.jpg">
+			<div>
+			<h3>Landscape Studies</h3>
+			</div>
+			<img src="images/beach.jpg">
+			<img src="images/desert.jpg">
+			<img src="images/river.jpg">
+			
+		</div>
+	<div id="return">
+	<a href="index.html">Home</a>
+	</div>
+	
+	
+	</div>
+	
+	</body>
+
+
+
+
+
+
+</html>
